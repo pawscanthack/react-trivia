@@ -7,7 +7,7 @@
     },
     {
       "question": "What is my last name?",
-      "choices": ["Tomas", "Davis", "Stanicky", "Torvalds"],
+      "choices": ["Smith", "Davis", "Stanicky", "Torvalds"],
       "correctAnswerIdx": 1
     },
     {
