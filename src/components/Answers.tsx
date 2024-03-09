@@ -23,7 +23,7 @@ function Answers(props: Props) {
             {props.question.choices.map((choice, idx) => {
                 let color = '';
 
-                if (showAnswer && props.question.correctAnswerIdx === idx) color = 'green';
+                if (showAnswer && props.question.correctAnswerIdx === idx) color = 'lightgreen';
                 else if (showAnswer) color = 'red';
                 return (
                     <Answer
