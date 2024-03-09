@@ -24,4 +24,5 @@ dist-ssr
 *.sw?
 
 # Codux
-src/_codux/*
+src/_codux
+/home/red/Learning_React/react-trivia/src/_codux
