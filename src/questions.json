@@ -12,7 +12,7 @@
     },
     {
       "question": "What is my favorite OS?",
-      "choices": ["Windows", "macOS", "Linux", "Anrdriod"],
+      "choices": ["Windows", "macOS", "Linux", "Andriod"],
       "correctAnswerIdx": 2
     },
     {
