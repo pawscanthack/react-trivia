@@ -1,0 +1,16 @@
+.answer {
+  width: 47.5%;
+  padding: 10px;
+  background-color: #5a5a5f;
+  color: white;
+  font-family: Lucida Console, monospace;
+  font-weight: 700;
+  border: 1px solid blue;
+  border-radius: 10px;
+  &:focus {
+    color: white;
+  }
+  &:hover {
+    background-color: blue;
+  }
+}

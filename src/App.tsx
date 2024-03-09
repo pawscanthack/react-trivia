@@ -2,6 +2,8 @@ import questions from './questions.json';
 import { Questions } from './types';
 import { useState } from 'react';
 import StatBar from './components/StatBar';
+import QuestionComp from './components/Question';
+import App_module from './App.module.scss';
 
 function App() {
     const allQuestions = questions as Questions;
@@ -11,12 +13,16 @@ function App() {
     const [incorrectAnswers, setIncorrectAnswers] = useState(0);
 
     return (
-        <div>
+        <div className={App_module.app}>
             <StatBar
                 currentQuestion={currentQuestionIdx + 1}
                 totalQuestions={allQuestions.questions.length}
                 correct={correctAnswers}
                 incorrect={incorrectAnswers}
+            />
+            <QuestionComp
+                question={allQuestions.questions[currentQuestionIdx]}
+                onSubmit={() => {}}
             />
         </div>
     );
