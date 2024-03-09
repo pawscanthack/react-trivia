@@ -2,32 +2,54 @@
   "questions": [
     {
       "question": "What is my first name?",
-      "choices": ["Scott", "Tom", "Joe", "Rick"],
+      "choices": ["Scott", "Linus", "Joe", "Rick"],
       "correctAnswerIdx": 0
     },
     {
       "question": "What is my last name?",
-      "choices": ["Tomas", "Davis", "Stanicky", "Dick"],
+      "choices": ["Tomas", "Davis", "Stanicky", "Torvalds"],
       "correctAnswerIdx": 1
     },
     {
-      "question": "What is my name?",
-      "choices": ["Scott", "Tom", "Joe", "Rick"],
+      "question": "What is my favorite OS?",
+      "choices": ["Windows", "macOS", "Linux", "Anrdriod"],
+      "correctAnswerIdx": 2
+    },
+    {
+      "question": "What is my favorite programming language?",
+      "choices": ["C++", "JavaScript", "Lua", "Python", "PHP"],
+      "correctAnswerIdx": 3
+    },
+    {
+      "question": "What is my favorite JavaScript library?",
+      "choices": ["Bootstrap", "jQuery", "Redux", "Angular", "React"],
+      "correctAnswerIdx": 4
+    },
+    {
+      "question": "From which school did I receive a BAS in Information Systems and Techonology with a focus on Cybersecurity?",
+      "choices": [
+        "Everett Community College",
+        "Bellevue College",
+        "Edmonds College",
+        "ITT Technical Institute",
+        "Harvard"
+      ],
+      "correctAnswerIdx": 1
+    },
+    {
+      "question": "What musical instrument do I play everyday?",
+      "choices": ["Guitar", "Piano", "Saxophone", "Mandolin"],
       "correctAnswerIdx": 0
     },
     {
-      "question": "What is my name?",
-      "choices": ["Scott", "Tom", "Joe", "Rick"],
-      "correctAnswerIdx": 0
-    },
-    {
-      "question": "What is my name?",
-      "choices": ["Scott", "Tom", "Joe", "Rick"],
-      "correctAnswerIdx": 0
-    },
-    {
-      "question": "What is my name?",
-      "choices": ["Scott", "Tom", "Joe", "Rick"],
+      "question": "What breed are my dogs?",
+      "choices": [
+        "Miniauture Australian Shepherd",
+        "Corgie",
+        "Border Collie",
+        "Mastiff",
+        "Samoyed"
+      ],
       "correctAnswerIdx": 0
     }
   ]

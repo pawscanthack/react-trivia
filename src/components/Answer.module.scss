@@ -1,18 +1,18 @@
 .answer {
   padding: 10px;
-  background-color: #5a5a5f;
-  color: white;
-  font-family:
-    Lucida Console,
-    monospace;
-  font-weight: 700;
+  background-color: #322d2d;
+
+  color: #dcd6d6;
+  font-family: Lucida Console, monospace;
+  // font-weight: 700;
   border: 1px solid blue;
   border-radius: 10px;
   &:focus {
-    color: white;
+    background-color: blue;
   }
   &:hover {
     background-color: blue;
+    color: white;
   }
   width: auto;
 }
