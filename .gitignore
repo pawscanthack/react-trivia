@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Codux
-_codux/*
+src/_codux/*
