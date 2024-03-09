@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "What is my first name?",
-      "choices": ["Scott", "Linus", "Joe", "Rick"],
+      "choices": ["Scott", "Rick", "Joe", "Linus"],
       "correctAnswerIdx": 0
     },
     {
@@ -12,18 +12,18 @@
     },
     {
       "question": "What is my favorite OS?",
-      "choices": ["Windows", "macOS", "Linux", "Andriod"],
+      "choices": ["Windows", "macOS", "Linux", "Andriod", "ChromeOs"],
       "correctAnswerIdx": 2
     },
     {
       "question": "What is my favorite programming language?",
-      "choices": ["C++", "JavaScript", "Lua", "Python", "PHP"],
+      "choices": ["C++", "JavaScript", "Lua", "Python", "PHP", "R"],
       "correctAnswerIdx": 3
     },
     {
       "question": "What is my favorite JavaScript library?",
-      "choices": ["Bootstrap", "jQuery", "Redux", "Angular", "React"],
-      "correctAnswerIdx": 4
+      "choices": ["Bootstrap", "Redux", "Angular", "React", "jQuery"],
+      "correctAnswerIdx": 3
     },
     {
       "question": "From which school did I receive a BAS in Information Systems and Techonology with a focus on Cybersecurity?",
@@ -38,18 +38,12 @@
     },
     {
       "question": "What musical instrument do I play everyday?",
-      "choices": ["Guitar", "Piano", "Saxophone", "Mandolin"],
+      "choices": ["Guitar", "Piano", "Saxophone", "Mandolin", "Tuba"],
       "correctAnswerIdx": 0
     },
     {
       "question": "What breed are my dogs?",
-      "choices": [
-        "Miniauture Australian Shepherd",
-        "Corgie",
-        "Border Collie",
-        "Mastiff",
-        "Samoyed"
-      ],
+      "choices": ["Miniature Australian Shepherd", "Corgie", "Border Collie", "Mastiff"],
       "correctAnswerIdx": 0
     }
   ]

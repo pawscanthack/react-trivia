@@ -20,7 +20,7 @@ function Reset(props: Props) {
                 onClick={props.onPress}
                 className={Classnames(App_module['next-btn'], Answer_module.answer)}
             >
-                Press to try again!
+                Press to play again!
             </button>
         </div>
     );
